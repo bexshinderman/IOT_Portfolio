@@ -1,11 +1,14 @@
 .header {
   padding: 60px;
   text-align: center;
-  background: grey;
+ 
   color: white;
   font-size: 30px;
   font-family: "Candara";
-  height: 30px;
+  height: 10px;
+ background: url(images.JPG);
+  background-repeat: no-repeat;
+  background-size: auto;
   
 }
 

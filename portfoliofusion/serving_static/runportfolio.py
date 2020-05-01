@@ -26,6 +26,11 @@ def inspo():
 def sprint1():
     
     return render_template("sprint1.html")
+
+@app.route('/sprint2')
+def sprint2():
+    
+    return render_template("sprint2.html")
     
 @app.route('/page/<string:title>')
 def page(title):
