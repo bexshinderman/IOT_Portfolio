@@ -65,8 +65,11 @@
     float:left;
     /* you can optionally set a fixed height */
  }
-
+ .text{
+  padding: 75px;
+  /* you can optionally set a fixed height */
+}
  .img-fluid
  {
-   margin-left: 75px;;
+   margin-left: 75px;
  }
