@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class ="header">
+<h1> Project 1 - IOT <h1>
+<h2> By Bex Shinderman, 2020</h2>
+</div>
+</header>
+<nav>
+<div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="sprint1.html">Sprint 1</a>
+        <a href="sprint2.html">Sprint 2</a>
+       
+      </div>
+</nav>
+<div class = "pagehead">
+    </div>
+
+    <!--<div class="container">
+      <div class="row">
+
+
+        
+
+          <div class="col-xs-9">-->
+<div class = "text">
+       <p>
+ <h2>Sprint One 27th Feb - 5th of March.</h2>     
+ <br>  
+Coming into Project I had originally wanted to focus primarily on my sysadmin skills but I also wanted to work om my web & database skills. As such, it was recommended to me by the Project Coordinator that the Internet Of Things team would likely be a good fit. After our very first session I could see that there was a lot to do and a lot to learn. Until this semester, the IOT was just something I had only written an essay about in 2015 and seen as a buzz word in varying tech blogs. 
+<br><br>
+The first technical challenge that was impossible to ignore was the lack of access to our files and documentation. During the semesters before hand the IOT group had been hosting their files on the GitLab server run by the DevOps project team, bit-ip.gitlab.com After one week passed without any access to files or documentation I suggested to my project supervisor that perhaps we migrate elsewhere so we could begin developing. Not only was it a bother to have our project hosted there, we also couldn't find a good reason to stay. By maintaining our own project on GitLab we would have more control & less downtime. 
+<br><br>
+After doing some Googling I used GitLab’s import/export feature to migrate us from https://gitlab.op-bit.nz/BIT/Project/Internet-Of-Things to gitlab.com/iotop. This meant requesting temporary maintainer access from the DevOps team so I could export our repositories. Surprisingly it took a good 3 hours to export and import the teams' repositories. My biggest considerations when completing this task was loss of data, maintaining permissions and ensuring as little down time as possible. To ensure these considerations were satisfied I first did a back up both locally and on a personal hard drive of each of the repositories. I also made sure to communicate closely with the DevOps team through Microsoft Teams so they were able to revoke my maintainer access by the end of the business day. Luckily, Gitlab's import/export feature made maintaining permissions over repositories easy, private repositories remained private when uploaded. I discovered that I had accidently added a protected tag to a repository that was supposed to be public - but this was amended within a few hours of my team mate messaging me on Teams. I decided to give myself, my supervisor and our other sysadmin Maintainer access over the Project so there wouldn't be any future hassles with access. I updated the link in our hidden repository with useful links and credentials, stating the date, where we moved from & to.
+<br><br>
+The other ticket assigned to me during the first sprint was to correct the readings of the c02 sensors displayed on the heat map app. I failed to complete this ticket during this sprint. Though there was some documentation, it wasn't at all thorough and relied on a lot of prior understanding. I started small with the simple task of getting the heatmap app to run - which I was unable at first to do. I was able to launch the application as per the documentation intended, but I was unable to get the front end up and running. I discovered this was because REACT was not up and running. The way the heap map app is designed uses Django on port 8000 in the backend and REACT on port 3000 for the front end. Upon finding this out & getting the app to run successfully I amended the Documentation so my team mate could also get it up and running. Sadly, this is as much progress as I made with this task during our first sprint. I put my slow progress down to learning new frameworks and technologies such as Django and REACT. One huge limitation and worry of mine is my lack of experience with embedded systems and hardware, and I hope to pick up some practical experience with the devices over the coming weeks. For now, I am cutting my tasks into smaller increments and have the goal of displaying data from the TTN on a web page by the time I next meet with my group.
+<br><br>
+       </p>
+          </div>
+
+         
+
+
+        
+      </div>
+  </div>
+  
+   
+
+
+    
+</body>
+</html>
